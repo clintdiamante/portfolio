@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
 	<title>Filipino Web Developer | Clint Diamante</title>
 
@@ -12,9 +14,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
 	<!-- Loads Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
 	<!-- Loads Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -25,54 +25,127 @@
 	<!-- Loads Custom Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
+
 <body>
-	<header id="mainHeader" role="site-header">
-		<nav class="navbar navbar-expand-lg">
-			<a class="navbar-brand mr-auto pl-5" href="./index.html">Clint Diamante</a>
+
+	<main id="wrapper">
+		<header id="main-header">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="./index.html">CD</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Work</a>
+						</li> 
+						<!-- /.nav-item -->
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li> 
+						<!-- /.nav-item -->
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li> 
+						<!-- /.nav-item -->
+					</ul>
+				</div>
+			</nav> <!-- /.navbar -->
+		</header> <!-- /#main-header -->
+
+		<section id="sec-home">
+			<div class="container-fluid" id="sec-home-content">
+
+				<p>I am Clint Diamante</p>
+				<p>A Front-End Web Developer</p>
+				<p>From Philippines</p>
+
+				<a href="#sec-contact">Hire Me</a>
+				
+			</div> <!-- /#sec-home-content -->
+		</section> <!-- /#sec-home -->
+
+		<section id="sec-work">
+
+			<h3>Work</h3>
 			
-			<ul class="navbar-nav ml-auto pr-5">
-				<li class="navbar-item">
-					<a class="nav-link" href="#work">Work</a>
-				</li>
-				<li class="navbar-item">
-					<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="navbar-item">
-					<a class="nav-link" href="#contact">Contact</a>
-				</li>
-			</ul> <!-- /.navbar-nav -->
-		</nav> <!-- /.navbar -->
-	</header>
+		</section>
 
-	<main class="container-fluid" role="site-main">
-		<section id="home">
-			<h2 class="text-center">I Make Websites</h2>
-			
-		</section> <!-- /#home -->
+		<section id="sec-about">
+			<div class="container-fluid" id="sec-about-content">
+				<div class="row">
 
-		<section id="work">
-			
-		</section> <!-- /#work -->
+					<div class="col-sm-12 col-md-12 col-lg-4" id="sec-about-image">
 
-		<section id="about">
-			
-		</section> <!-- /#about -->
+						<img class="img-fluid" src="./assets/img/my-photo.jpg" alt="My Photo">
+						
+					</div> <!-- /.col -->
 
-		<section id="contact">
-			
-		</section> <!-- /#contact -->
-	</main> <!-- /.container -->
+					<div class="col-sm-12 col-md-12 col-lg-8" id="sec-about-text">
 
-	<footer id="mainFooter" role="site-footer">
-		
-		<div class="container">
-			<div class="text-center">
-				<p class="md-3">Filipino Web Developer | Clint Diamante</p>
-				<p>+63 915 269 9596 | clintdiamante@gmail.com</p>
-			</div> <!-- /.text-center -->
-		</div> <!-- /.container -->
+						<h3>About Me</h3>
 
-	</footer> <!-- /#mainFooter -->
+						<p>I'm Clint Diamante, a front-end web developer based in San Juan,	Philippines. In 2012, I graduated with a degree in Information Technology majoring in Network Engineering from AMA Computer College.</p>
+
+						<p>I love computers. I've worked in the fields of hardware, software and multimedia but what I'm most passionate about is web development.</p>
+
+						<p>As a developer, I take pleasure on conceiving projects with creative ideas and visual aesthetics.</p>
+
+						<p>I'm currently a camper in Tuitt Coding Bootcamp. After this, I will work in the industry and continuously learn new things, and grow as a developer.</p>
+
+						<p id="sec-about-quote">Learning is a never-ending process.</p>
+
+						<div id="sec-about-skills">
+							
+							<h3>Technologies</h3>
+
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-js-square"></i>
+
+						</div> <!-- /#sec-about-skills -->
+
+					</div> <!-- /.col -->
+
+				</div>
+			</div> <!-- /#sec-home-content -->
+		</section> <!-- /#sec-about -->
+
+		<section id="sec-contact">
+			<div class="container-fluid" id="sec-contact-content">
+				
+				<h3>Contact</h3>
+
+				<p>Have a project to discuss or just wanting to say hello? I'm all ears!</p>
+
+				<p>I look forward to your message!</p>
+
+				<p>-</p>
+
+				<div id="sec-contact-info">
+					
+					<p>Email me, <a href="#">clintdiamante@gmail.com</a></p>
+					<p>Call me, <a href="#">+63 915 269 9596</a></p>
+					<p>Skype with me, <a href="#">clint_diamante</a></p>
+					<p>My GitHub, <a href="#">clintdiamante</a></p>
+
+					<p>-</p>
+
+					<p>Stay in touch!</p>
+
+				</div> <!-- /#sec-contact-info -->
+
+			</div> <!-- /#sec-contact-content -->	
+		</section> <!-- /#sec-contact -->
+
+		<footer id="main-footer">
+			<div class="container-fluid">
+				<p></p>
+			</div>
+		</footer> <!-- /#main-footer -->
+
+	</main> <!-- /#wrapper -->
 
 	<!-- Loads Custom Script -->
 	<script src="./assets/js/script.js"></script>

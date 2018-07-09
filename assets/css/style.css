@@ -1,5 +1,7 @@
 /*
+ *
  * CSS Reset
+ *
  */
 
  * {
@@ -9,81 +11,191 @@
  }
 
 /*
+ *
  * General Rules
+ *
  */
+
+ body {
+ 	color: #606060;
+ 	font-family: 'Muli', sans-serif;
+ 	background-color: #F5F5F5;
+ 	overflow-x: hidden;
+ }
+
+ main#wrapper {
+ 	width: 90vw;
+ 	min-height: 100vh;
+ 	margin: 0 auto;
+ }
 
  section {
-	min-height: 100vh;
- 	background-color: #F5F4EE;
+ 	width: 100%;
+ 	min-height: 100vh;
+ 	border-bottom: 1px solid #D3D3D3;
  }
-
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
- 	color: #323232;
- }
-
- h1:hover,
- h2:hover,
- h3:hover,
- h4:hover,
- h5:hover,
- h6:hover {
- 	color: #FFF;
- }
-
- p {
- 	color: #323232;
- }
-
-/*
- * Header Section
- */
-
- header > nav {
- 	height: 8vh;
- 	background-color: #323232;
- }
-
- header > nav > a {
- 	font-family: 'Raleway', sans-serif;
- 	color: #F5F5F5;
- }
-
- header > nav > a:hover {
- 	color: #FFF;
- }
-
- header > nav > ul > li > a {
- 	font-family: 'Raleway', sans-serif;
- 	color: #F5F5F5;
- }
-
- header > nav > ul > li > a:hover {
- 	color: #FFF;
- }
-
-/*
- * Main Section
- */
 
  .container-fluid {
- 	padding: 0px;
+ 	width: 100%;
  }
 
- section#home > h2 {
- 	font-family: 'Neucha', sans-serif;
+/*
+ *
+ * Header
+ *
+ */
+
+ header#main-header {
+ 	border-bottom: 2px solid #606060;
+ }
+
+ nav.navbar {
+ 	color: #606060;
+ 	background-color: transparent;
+ }
+
+ nav.navbar > a.navbar-brand {
+ 	color: #606060;
  	font-size: 40px;
  }
 
 /*
- * Footer Section
+ *
+ * Home Section
+ *
  */
 
-footer {
-	min-height: 5vh;
-	background-color: #D3D3D3;
-}
+ section#sec-home {
+ 	display:flex;
+ 	justify-content:center;
+ 	align-items:center;
+ }
+
+ section#sec-home > div#sec-home-content {
+ 	text-align: center;
+ 	padding: 20px;
+ }
+
+ section#sec-home > div#sec-home-content > p {
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	margin-bottom: 0;
+ 	padding-bottom: 5px;
+ }
+
+ section#sec-home > div#sec-home-content > a {
+ 	color: #606060;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	margin-bottom: 0;
+ 	padding-bottom: 0;
+ 	border-bottom: 1px dotted #606060;
+ 	text-decoration: none;
+ }
+
+ section#sec-home > div#sec-home-content > a:hover {
+ 	color: #808080;
+ }
+
+/*
+ *
+ * About Section
+ *
+ */
+
+ div#sec-about-image > img {
+ 	opacity: 0.7;
+ 	padding-top: 20px;
+ }
+
+ div#sec-about-text > h3 {
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	margin-bottom: 0;
+ }
+
+ div#sec-about-text > p {
+ 	font-size: 14px;
+ 	text-align: center;
+ }
+
+ p#sec-about-quote {
+ 	font-style: italic;
+ }
+
+ div#sec-about-skills {
+ 	text-align: center;
+ 	padding-bottom: 16px;
+ }
+
+ div#sec-about-skills > h3 {
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	padding-bottom: 16px;
+ 	margin-bottom: 0;
+ }
+
+ div#sec-about-skills > i {
+ 	font-size: 30px;
+ 	margin: 5px;
+ }
+
+/*
+ *
+ * Contact Section
+ *
+ */
+
+ section#sec-contact {
+ 	display:flex;
+ 	justify-content:center;
+ 	align-items:center;
+ }
+
+ div#sec-contact-content > h3 {
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	margin-bottom: 0;
+ }
+
+ div#sec-contact-content > p {
+ 	font-size: 14px;
+ 	text-align: center;
+ }
+
+ div#sec-contact-content > div#sec-contact-info > p {
+ 	font-size: 14px;
+ 	text-align: center;
+ }
+
+ div#sec-contact-content > div#sec-contact-info > p > a {
+ 	color: #606060;
+ 	border-bottom: 1px dotted #606060;
+ }
+
+ div#sec-contact-content > div#sec-contact-info > p > a:hover {
+ 	color: #808080;
+ 	text-decoration: none;
+ }
+
+/*
+ *
+ * Footer Section
+ *
+ */
+
+ footer#main-footer {
+ 	min-height: 5vh;
+ 	border-top: 2px solid #606060;
+ }
