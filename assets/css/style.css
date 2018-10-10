@@ -18,7 +18,9 @@
 
  body {
  	color: #606060;
- 	font-family: 'Muli', sans-serif;
+ 	/*font-family: 'Muli', sans-serif;*/
+ 	/*font-family: 'Source Code Pro', monospace;*/
+ 	font-family: 'PT Mono', monospace;
  	background-color: #FFF;
  	overflow-x: hidden;
  }
@@ -201,6 +203,7 @@
  	font-weight: bold;
  	text-transform: uppercase;
  	padding-bottom: 16px;
+ 	margin-top: 50px;
  	margin-bottom: 0;
  }
 
